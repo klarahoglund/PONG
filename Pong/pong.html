@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PONG</title>
+    <link href="pong.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <!--måste komma först annars funkar inte jq-->
+
+
+
+
+</head>
+
+<body id="backdrop">
+    <main>
+
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <div id="score">
+            <div id="player1_score">0</div>
+            <div id="player2_score">0</div>
+            <div id="gameOver"></div>
+        </div>
+
+        <button id="startknapp" onclick="alive()">START</button>
+        <div id="info">
+            <h1>Information</h1>
+            <p>
+                <b>g</b> servar <br>
+                Player1 upp med <b>w</b> och ner med <b>e</b><br>
+                Player2 upp med <b>o</b> och ner med <b>p</b><br>
+            </p>
+        </div>
+        <script type=" text/javascript" src="pong.js"></script>
+    </main>
+</body>
+
+</html>
